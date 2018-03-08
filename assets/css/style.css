@@ -1,0 +1,71 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #444444;
+    font-size: 16px;
+}
+header {
+    margin: 1%;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.container {
+    padding: 2%;
+}
+.gifs-display {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-container {
+    border: 1px solid #666666;
+    border-radius: 10px;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+#buttons-view {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 1%;
+    background:#46c4ab;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    margin: 1%;
+}
+#form-container, #message {
+    margin: 2% 2%;
+    text-align: center;
+}
+#topic-input {
+    width: 60%;
+    font-size: 16px;
+    height: 1.2em;
+}
+
+#add-topic {
+    margin-left: 1%;
+    padding: 1%;
+    background:#46c4ab;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
